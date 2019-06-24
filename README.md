@@ -30,7 +30,7 @@ Shall we prepare our machine to run those scripts?
 ### 3. Running the scripts
 
 - Firstly, start your AVD device.
-- Now you should start Appium server.
+- Now you should start Appium server in the default ip:port which is 0.0.0.0:4723.
 - In order to run the scripts, we need to open our terminal in the root folder of the Automation Project where we can find the file __pom.xml__. This file is the one who tells maven what to do.
 - Now, all we need to do is run the following line from the terminal: `mvn test`
 - If it's the first time you're running the scripts, the app will be installed in the Mobile Emulator. Since there is a First Run Wizzard in this app, you should do go through this manually and the scripts will certainly fail. The second time we run the Automated Tests the magic will happen.
