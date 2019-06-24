@@ -41,6 +41,6 @@ Shall we prepare our machine to run those scripts?
 - If the test fail, we can se what happened, what exception we got and we can see a ScreenShot from the moment of the fail. Nice, ins't?
 
 <br>
-What do you think of this project?
-Please let me know your thoughts.
+What do you think of this project?   
+Please let me know your thoughts.   
 Thank you.
