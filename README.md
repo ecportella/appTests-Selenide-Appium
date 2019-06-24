@@ -16,7 +16,7 @@ Shall we prepare our machine to run those scripts?
 
 - In order to run the scripts, we need to install on our machines the __Java JDK__, __Android SDK__, __Appium Server__ and __Maven__ technologies.
 - Make sure to install the latest version of each technology.
-- After you do install, make sure you can use __Java JDK__, __Android SDK__ and __Maven__ from wherever you are, adding then to your local path variable.
+- After you do install, make sure you can use those technologies from wherever you are, adding then to your local path variable.
 - You'll need to have __Android Emulator__ and __ADB services__ ready to use. You can achieve this easily just installing __Android Studio__ and creating your device in the __AVD Manager__ menu inside __Android Studio__. I had a little of trouble setting up an AVD device in API 29, so just to make sure it works, select API 28.
 
 ### 2. Project Architecture
