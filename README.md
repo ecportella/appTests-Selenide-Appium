@@ -23,7 +23,7 @@ Shall we prepare our machine to run those scripts?
 
 - The project is splitted in 3 folders inside the src file of the project.
 - In the __functions__ folder we have the __base test__ that represents the test set up, configurations and report creation.
-- In the __pageObjects__ we have mapped all the elements that we want to control over the app.
+- In the __screenObjects__ we have mapped all the elements that we want to control over the app.
 - The __tests__ folder is where we find our tests itself.
 - Lastly, in the root of the automated project, we have a file called __tests.xml__ who tells maven which tests to run.
 
