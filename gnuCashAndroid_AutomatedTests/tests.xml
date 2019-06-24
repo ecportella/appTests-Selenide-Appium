@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="N26 Home Task">
+	<test name="GnuCash Android AutoTests" preserve-order="true">
+        <classes>
+            <class name="tests.AccountTests">
+                <methods>
+			       <include name="createNewAccount" />
+			       <include name="editAccount" />
+			       <include name="deleteAccount" />
+			       <include name="searchAccount" />
+			    </methods>
+            </class>
+            <class name="tests.SubAccountTests">
+                <methods>
+			       <include name="createNewSubAccount" />
+			       <include name="editSubAccount" />
+			       <include name="deleteSubAccount" />
+			    </methods>
+            </class>
+            <class name="tests.TransactionsTests">
+                <methods>
+			       <include name="createNewTransaction" />
+			       <include name="editTransaction" />
+			       <include name="duplicateTransaction" />
+			       <include name="deleteTransaction" />
+			       <include name="transactionCalculation" />
+			       <include name="deleteAccountWithTransaction" />
+			    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
