@@ -1,7 +1,6 @@
-# eugenio-portella
-Home Challenge
+# Automation Test project using Selenide (Selenium), TestNG, Appium, Maven and ExtentReport
 
-Hello, this is the project for the test automation of the N26 Home Challenge.
+Hello, this is the project for the test automation of a challenge I had the opportunity to participate.
 It was written in __Java__ and the technologies used was __Maven__, __Appium__, __Selenide__ (Selenium wrapper), __TestNG__, and __ExtentReport__.
 
 - With __Maven__ we control dependencies and we can run the project from the terminal.
